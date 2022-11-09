@@ -1,0 +1,7 @@
+spring: 
+    data:
+        cassandra:
+              keyspace-name: customer
+              port: 9042
+              local-datacenter: datacenter1
+              contact-points: localhost
